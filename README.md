@@ -1,8 +1,8 @@
 # Blockbuster Reborn – Ejercicio Práctico SQL JOIN
 
 **Asignatura:** Bases de Datos Avanzadas
-**Grupo:** 4
 
+**Grupo:** 4
 **Integrantes:**
 
 *Daniel Casanova*
