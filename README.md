@@ -1,4 +1,4 @@
-# 🎬 Blockbuster Reborn – Ejercicio Práctico SQL JOIN
+# Blockbuster Reborn – Ejercicio Práctico SQL JOIN
 
 **Asignatura:** Bases de Datos Avanzadas
 **Grupo:** 4
@@ -67,7 +67,7 @@ erDiagram
     }
 ```
 
-## 🔍 Reportes realizados
+## Reportes realizados
 
 | Reporte | Pregunta de negocio | Tipo de JOIN |
 |---|---|---|
