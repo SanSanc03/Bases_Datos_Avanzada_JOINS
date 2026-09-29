@@ -2,7 +2,11 @@
 
 **Asignatura:** Bases de Datos Avanzadas
 **Grupo:** 4
-
+Integrantes:
+Daniel Casanova
+Diego Páez
+Edwin Rodriguez
+Santiago Sánchez
 ## Descripción del proyecto
 
 *Blockbuster Reborn* es una cadena de renta de películas físicas que busca modernizarse. El negocio maneja tres tipos de renta:
