@@ -3,7 +3,7 @@
 **Asignatura:** Bases de Datos Avanzadas
 **Grupo:** 4
 
-## 📌 Descripción del proyecto
+## Descripción del proyecto
 
 *Blockbuster Reborn* es una cadena de renta de películas físicas que busca modernizarse. El negocio maneja tres tipos de renta:
 
@@ -13,16 +13,7 @@
 
 En este proyecto se diseñó la base de datos `blockbusterReborn`, se cargó con datos de prueba y se construyeron 4 reportes de negocio usando los distintos tipos de `JOIN`: `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN` y un `FULL OUTER JOIN` emulado con `UNION`.
 
-## 🗂️ Estructura del repositorio
-
-| Archivo | Contenido |
-|---|---|
-| [`1_esquema_y_datos.sql`](1_esquema_y_datos.sql) | Creación de la base de datos, las 7 tablas (DDL) y los datos de prueba (DML). |
-| [`2_consultas.sql`](2_consultas.sql) | Las 4 consultas de negocio con JOIN, comentadas por reporte. |
-| [`resultados.md`](resultados.md) | Tablas de salida de cada consulta con su análisis. |
-| `README.md` | Este archivo. |
-
-## 🧩 Diagrama Entidad-Relación
+## Diagrama Entidad-Relación
 
 ```mermaid
 erDiagram
@@ -85,7 +76,7 @@ erDiagram
 | 3 | Auditoría de todo el catálogo de películas | `RIGHT JOIN` |
 | 4 | Conciliación total empleados ↔ rentas | `LEFT JOIN` + `UNION` + `RIGHT JOIN` (FULL OUTER JOIN emulado) |
 
-## ▶️ Cómo ejecutarlo
+## Cómo ejecutarlo
 
 1. Abrir MySQL Workbench (o la consola `mysql`).
 2. Ejecutar completo `1_esquema_y_datos.sql` (crea la base y carga los datos).
@@ -100,7 +91,7 @@ mysql -u root -p --table < 2_consultas.sql
 
 > **Nota:** en Windows, MySQL tiene por defecto `lower_case_table_names = 1`, así que al hacer `SHOW TABLES` la tabla `detallesRenta` se ve como `detallesrenta`. En el script los nombres están en lowerCamelCase como pide el enunciado y las consultas funcionan igual.
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **MySQL Server 8.0** – motor de base de datos.
 - **MySQL Workbench 8.0 / consola `mysql`** – ejecución de los scripts.
