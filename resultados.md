@@ -1,6 +1,6 @@
 # Resultados de las consultas – Blockbuster Reborn
 
-Resultados obtenidos al ejecutar `1_esquema_y_datos.sql` y luego `2_consultas.sql` en **MySQL 8.0.46** (cliente de línea de comandos `mysql`).
+Resultados obtenidos al ejecutar 1_esquema_y_datos.sql y luego 2_consultas.sql en **MySQL 8.0.46** (cliente de línea de comandos mysql).
 
 ---
 
